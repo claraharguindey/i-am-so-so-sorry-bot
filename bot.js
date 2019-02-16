@@ -7,7 +7,6 @@ letsTweetIt()
 setInterval(letsTweetIt, 1000 * 20)
 
 function letsTweetIt() {
-    const randomNumberE = Math.floor(Math.random() * emoji.length);
     const emoji = [
         `🙁`,
         `🏃‍♀️`,
@@ -20,6 +19,8 @@ function letsTweetIt() {
         `😭`,
         `🙇‍♀️`
     ]
+
+    const randomNumberE = Math.floor(Math.random() * emoji.length);
     const randomEmoji = emoji[randomNumberE];
 
     const tweet = [`ay${randomEmoji}, q lo siento`,
