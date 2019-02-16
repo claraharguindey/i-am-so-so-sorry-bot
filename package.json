@@ -4,7 +4,7 @@
   "description": "i am sorry",
   "main": "index.js",
   "scripts": {
-    "start" : "node bot.js",
+    "start": "node bot.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/claraharguindey/i-am-so-so-sorry-bot/issues"
   },
-  "homepage": "https://github.com/claraharguindey/i-am-so-so-sorry-bot#readme"
+  "homepage": "https://github.com/claraharguindey/i-am-so-so-sorry-bot#readme",
+  "dependencies": {
+    "twit": "^2.2.11"
+  }
 }
