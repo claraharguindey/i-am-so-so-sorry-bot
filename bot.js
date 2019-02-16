@@ -22,7 +22,7 @@ function letsTweetIt() {
         `🙇‍♀️`
     ]
     const randomEmoji = emoji[randomNumber];
-    const Tweet = [`ay, q lo siento`,
+    const Tweet = [`ay${randomEmoji}, q lo siento`,
         `soy un bot pero te pido disculpas sinceras${randomEmoji}`,
         `perdón${randomEmoji}`,
         `lo siento${randomEmoji}`,
