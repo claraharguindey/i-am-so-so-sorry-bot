@@ -4,7 +4,7 @@ const config = require('./config');
 const T = new Twit(config)
 
 letsTweetIt()
-setInterval(letsTweetIt, 1000 * 20)
+setInterval(letsTweetIt, 1000 * 43200)
 
 function letsTweetIt() {
     const emoji = [
