@@ -22,7 +22,7 @@ function letsTweetIt() {
         `🙇‍♀️`
     ]
     const randomEmoji = emoji[randomNumber];
-    const Tweet = [`ay${randomEmoji}, q lo siento`,
+    const tweet = [`ay${randomEmoji}, q lo siento`,
         `soy un bot pero te pido disculpas sinceras${randomEmoji}`,
         `perdón${randomEmoji}`,
         `lo siento${randomEmoji}`,
@@ -38,7 +38,7 @@ function letsTweetIt() {
     ]
 
 
-    T.post('statuses/update', { status: Tweet[randomNumber] }, tweeted);
+    T.post('statuses/update', { status: tweet[randomNumber] }, tweeted);
 
     function tweeted(err, data, response) {
         err
