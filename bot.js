@@ -37,7 +37,7 @@ function letsTweetIt() {
         `perdón, por mi culpa,${randomEmoji} por mi culpa, por mi gran culpa me mato`,
     ]
 
-    const randomNumberT = Math.floor(Math.random() * tweet.length);
+    let randomNumberT = Math.floor(Math.random() * tweet.length);
 
     T.post('statuses/update', { status: tweet[randomNumberT] }, tweeted);
 
