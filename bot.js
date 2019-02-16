@@ -7,8 +7,7 @@ letsTweetIt()
 setInterval(letsTweetIt, 1000 * 20)
 
 function letsTweetIt() {
-    const randomNumber = Math.floor(Math.random() * Tweet.length);
-
+    const randomNumberE = Math.floor(Math.random() * emoji.length);
     const emoji = [
         `🙁`,
         `🏃‍♀️`,
@@ -21,7 +20,8 @@ function letsTweetIt() {
         `😭`,
         `🙇‍♀️`
     ]
-    const randomEmoji = emoji[randomNumber];
+    const randomEmoji = emoji[randomNumberE];
+
     const tweet = [`ay${randomEmoji}, q lo siento`,
         `soy un bot pero te pido disculpas sinceras${randomEmoji}`,
         `perdón${randomEmoji}`,
@@ -37,8 +37,9 @@ function letsTweetIt() {
         `perdón, por mi culpa,${randomEmoji} por mi culpa, por mi gran culpa me mato`,
     ]
 
+    const randomNumberT = Math.floor(Math.random() * tweet.length);
 
-    T.post('statuses/update', { status: tweet[randomNumber] }, tweeted);
+    T.post('statuses/update', { status: tweet[randomNumberT] }, tweeted);
 
     function tweeted(err, data, response) {
         err
