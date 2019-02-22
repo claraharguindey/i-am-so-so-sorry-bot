@@ -35,6 +35,10 @@ function letsTweetIt() {
         `perdóname por fi${randomEmoji}`,
         `lo siento, es mi culpa${randomEmoji}`,
         `perdón, por mi culpa,${randomEmoji} por mi culpa, por mi gran culpa me mato${randomNumberE}`,
+        `estoy cansada no puedo dejar de pedir perdón pero ya no lo siento${randomNumberE}`,
+        `sorry not sorry jaj${randomNumberE}aj`,
+        `perdona not perdona xdxd${randomNumberE}`
+
     ]
 
     let randomNumberT = Math.floor(Math.random() * tweet.length);
