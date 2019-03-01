@@ -38,7 +38,7 @@ function letsTweetIt() {
         `estoy cansada no puedo dejar de pedir perdón pero ya no lo siento${randomNumberE}`,
         `si no me has perdonao ya tiempo has tenido tb te lo digo${randomNumberE}`,
         `a veces me aburro de decir perdón pe${randomNumberE}ro sigo arrepentida`,
-        `${randomNumberE}`,
+        `${randomNumberE}:(`,
         `quiero ser real ${randomNumberE} perdón`,
         `siento una tristura de bot, perdon ${randomNumberE}`,
         `te lo juro que ya sacabao no pido más perdón :( ${randomNumberE}`,
