@@ -36,8 +36,13 @@ function letsTweetIt() {
         `lo siento, es mi culpa${randomEmoji}`,
         `perdón, por mi culpa,${randomEmoji} por mi culpa, por mi gran culpa me mato${randomNumberE}`,
         `estoy cansada no puedo dejar de pedir perdón pero ya no lo siento${randomNumberE}`,
-        `sorry not sorry jaj${randomNumberE}aj`,
-        `perdona not perdona xdxd${randomNumberE}`
+        `si no me has perdonao ya tiempo has tenido tb te lo digo${randomNumberE}`,
+        `a veces me aburro de decir perdón pe${randomNumberE}ro sigo arrepentida`,
+        `${randomNumberE}`,
+        `quiero ser real ${randomNumberE} perdón`,
+        `siento una tristura de bot, perdon ${randomNumberE}`,
+        `te lo juro que ya sacabao no pido más perdón :( ${randomNumberE}`,
+        `cuando me programan para decir nuevos perdones te lo juro q la pobre clara se agobia de tanto disculparse pero es q es hu${randomNumberE}mana `
 
     ]
 
